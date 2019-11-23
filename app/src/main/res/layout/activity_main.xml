@@ -47,14 +47,14 @@
 <!--            android:paddingLeft="20dp" />
 -->
 
-<!--        <Button-->
-<!--            android:id="@+id/btn_demo01"-->
-<!--            android:background="#5555"-->
-<!--            android:textColor="@color/activity_main_btn_text_color"-->
-<!--            android:text="i am a button!"-->
-<!--            android:textAllCaps="false"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"/>-->
+        <Button
+            android:id="@+id/btn_demo01"
+            android:background="#5555"
+            android:textColor="@color/activity_main_btn_text_color"
+            android:text="i am a button!"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
 <!--        <EditText-->
 <!--            android:id="@+id/et_demo02"-->
@@ -69,10 +69,10 @@
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="wrap_content"/>-->
 
-        <ImageView
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+<!--        <ImageView-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

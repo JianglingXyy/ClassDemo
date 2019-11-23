@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.classdemo.activity.ConstraintLayoutActivity;
 import com.example.classdemo.activity.LifecycleActivity;
@@ -32,7 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnDemo01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.e(TAG, "onClick: button wa clicked");
+//                Log.e(TAG, "i am log.e");
+//                Log.d(TAG, "i am log.d");
+                Toast.makeText(MainActivity.this,"i am a toast",Toast.LENGTH_SHORT).show();
+
             }
         });
 
